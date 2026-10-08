@@ -1,0 +1,46 @@
+.footer {
+  padding-block: 1.75rem 2.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.tagline,
+.copy {
+  margin: 0.35rem 0 0;
+  color: var(--faint);
+  font-size: 0.95rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links a {
+  color: var(--muted);
+  text-underline-offset: 0.18em;
+}
+
+.links a:hover {
+  color: var(--ink);
+}
